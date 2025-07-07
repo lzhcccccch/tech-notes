@@ -1,10 +1,182 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <title>Tech Notes</title>
+  <meta charset="UTF-8">
+  <title>Tech Notes - 技术笔记</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="全面的技术文档知识库，涵盖编程语言、数据库、中间件、人工智能等多个技术领域">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
+  <style>
+    :root {
+      --theme-color: #42b883;
+      --theme-color-secondary: #369870;
+    }
+
+    .sidebar-nav li strong {
+      color: var(--theme-color);
+      font-size: 14px;
+    }
+
+    .app-name-link {
+      color: var(--theme-color) !important;
+    }
+
+    .markdown-section h1,
+    .markdown-section h2,
+    .markdown-section h3,
+    .markdown-section h4,
+    .markdown-section h5,
+    .markdown-section h6 {
+      color: #2c3e50;
+    }
+
+    .cover-main > p:last-child a {
+      background-color: var(--theme-color);
+      border-color: var(--theme-color);
+    }
+
+    .cover-main > p:last-child a:hover {
+      background-color: var(--theme-color-secondary);
+      border-color: var(--theme-color-secondary);
+    }
+
+    /* 代码块样式优化 */
+    .markdown-section pre > code {
+      background-color: #f8f8f8;
+      border-radius: 6px;
+    }
+
+    /* 搜索框样式 */
+    .search input {
+      border-radius: 20px;
+      border: 1px solid #e2e2e3;
+    }
+
+    /* 目录样式 */
+    .sidebar-nav > ul > li > a {
+      font-weight: 600;
+      margin: 0;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to Tech Notes</h1>
-    <p>This is my technical documentation site.</p>
+  <div id="app">📚 加载中...</div>
+  <script>
+    window.$docsify = {
+      name: 'Tech Notes',
+      repo: 'https://github.com/lzhch/tech-notes',
+      loadSidebar: true,
+      loadNavbar: true,
+      coverpage: true,
+      onlyCover: false,
+      auto2top: true,
+      maxLevel: 4,
+      subMaxLevel: 3,
+
+      // 搜索配置
+      search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto',
+        placeholder: '🔍 搜索文档...',
+        noData: '😞 找不到结果',
+        depth: 6,
+        hideOtherSidebarContent: false,
+      },
+
+      // 复制代码配置
+      copyCode: {
+        buttonText: '📋 复制',
+        errorText: '❌ 复制失败',
+        successText: '✅ 已复制'
+      },
+
+      // 分页导航
+      pagination: {
+        previousText: '⬅️ 上一页',
+        nextText: '下一页 ➡️',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+
+      // 字数统计
+      count: {
+        countable: true,
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese'
+      },
+
+      // 代码高亮
+      prism: {
+        theme: 'default'
+      },
+
+      // 外部链接
+      externalLinkTarget: '_blank',
+
+      // 路由模式
+      routerMode: 'hash',
+
+      // 404页面
+      notFoundPage: true,
+
+      // 侧边栏折叠
+      sidebarDisplayLevel: 1,
+
+      // 页面标题后缀
+      nameLink: '/',
+
+      // 编辑文档链接
+      plugins: [
+        function(hook, vm) {
+          hook.beforeEach(function (html) {
+            var url = 'https://github.com/lzhch/tech-notes/blob/main/' + vm.route.file;
+            var editHtml = '[:memo: 编辑此页](' + url + ')\n\n';
+            return editHtml + html;
+          });
+        }
+      ]
+    }
+  </script>
+
+  <!-- Docsify 核心 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- 搜索插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- 复制代码插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+
+  <!-- 分页导航插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <!-- 字数统计插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-count/dist/countable.min.js"></script>
+
+  <!-- 外部链接插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+
+  <!-- 图片缩放插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
+  <!-- 代码高亮 -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-xml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-docker.min.js"></script>
+
+  <!-- 侧边栏折叠插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+  <!-- 回到顶部插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
 </body>
 </html>
