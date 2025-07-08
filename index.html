@@ -87,7 +87,7 @@
     window.$docsify = {
       // 基本配置
       name: 'Tech Notes',
-      repo: 'https://github.com/lzhch/tech-notes',
+      repo: 'https://github.com/lzhcccccch/tech-notes',
       homepage: 'README.md',
 
       // 页面配置
@@ -101,7 +101,7 @@
 
       // 路由配置 - GitHub Pages 优化
       routerMode: 'hash',
-      basePath: '/',
+      basePath: '/tech-notes/',
       relativePath: false,
 
       // 搜索配置
@@ -157,7 +157,7 @@
         // 编辑链接插件
         function(hook, vm) {
           hook.beforeEach(function (html) {
-            var url = 'https://github.com/lzhch/tech-notes/blob/main/' + vm.route.file;
+            var url = 'https://github.com/lzhcccccch/tech-notes/blob/main/' + vm.route.file;
             var editHtml = '[:memo: 编辑此页](' + url + ')\n\n';
             return editHtml + html;
           });

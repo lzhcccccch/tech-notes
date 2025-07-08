@@ -1,6 +1,6 @@
 # 📚 Tech Notes
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://lzhch.github.io/tech-notes/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://lzhcccccch.github.io/tech-notes/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange.svg)](CONTRIBUTING.md)
 
@@ -14,7 +14,7 @@
 
 本项目已部署到 GitHub Pages，可以通过以下链接在线访问：
 
-**🔗 [https://lzhch.github.io/tech-notes/](https://lzhch.github.io/tech-notes/)**
+**🔗 [https://lzhcccccch.github.io/tech-notes/](https://lzhcccccch.github.io/tech-notes/)**
 
 ## 📖 目录结构
 
@@ -70,7 +70,7 @@
 
 ### 克隆项目
 ```bash
-git clone https://github.com/lzhch/tech-notes.git
+git clone https://github.com/lzhcccccch/tech-notes.git
 cd tech-notes
 ```
 
@@ -125,7 +125,7 @@ npx http-server
 
 ## 📚 如何使用
 
-1. **浏览在线版本**：直接访问 [GitHub Pages 站点](https://lzhch.github.io/tech-notes/)
+1. **浏览在线版本**：直接访问 [GitHub Pages 站点](https://lzhcccccch.github.io/tech-notes/)
 2. **本地查看**：克隆仓库到本地，使用 Markdown 编辑器查看
 3. **搜索内容**：使用 GitHub 的搜索功能或在本地使用 grep 等工具
 4. **下载离线版**：下载整个仓库作为离线文档
@@ -156,7 +156,7 @@ npx http-server
 如果你有任何问题或建议，欢迎通过以下方式联系：
 
 - 📧 Email: [你的邮箱]
-- 🐛 Issues: [GitHub Issues](https://github.com/lzhch/tech-notes/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/lzhcccccch/tech-notes/issues)
 
 ## ⭐ 支持项目
 
@@ -165,5 +165,5 @@ npx http-server
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by <a href="https://github.com/lzhch">lzhch</a></sub>
+  <sub>Built with ❤️ by <a href="https://github.com/lzhcccccch">lzhcccccch</a></sub>
 </div>

@@ -11,7 +11,7 @@
 - 🔍 支持全文搜索，快速定位内容
 - 📱 响应式设计，支持移动端访问
 
-[🔗 GitHub 仓库](https://github.com/lzhch/tech-notes)
+[🔗 GitHub 仓库](https://github.com/lzhcccccch/tech-notes)
 [📖 开始阅读](#tech-notes)
 
 <!-- 背景色 -->

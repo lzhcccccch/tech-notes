@@ -22,5 +22,5 @@
   * [🖼️ 素材库](微信素材库/)
 
 * 🔗 链接
-  * [📖 GitHub](https://github.com/lzhch/tech-notes)
-  * [🌟 关于我](https://github.com/lzhch)
+  * [📖 GitHub](https://github.com/lzhcccccch/tech-notes)
+  * [🌟 关于我](https://github.com/lzhcccccch)
