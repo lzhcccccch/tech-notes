@@ -59,87 +59,28 @@
       font-weight: 600;
       margin: 0;
     }
+
+    /* 404 错误页面样式 */
+    .not-found {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    /* 路径错误提示 */
+    .path-error {
+      background: #fff3cd;
+      border: 1px solid #ffeaa7;
+      border-radius: 4px;
+      padding: 1rem;
+      margin: 1rem 0;
+      color: #856404;
+    }
   </style>
 </head>
 <body>
   <div id="app">📚 加载中...</div>
-  <script>
-    window.$docsify = {
-      name: 'Tech Notes',
-      repo: 'https://github.com/lzhch/tech-notes',
-      loadSidebar: true,
-      loadNavbar: true,
-      coverpage: true,
-      onlyCover: false,
-      auto2top: true,
-      maxLevel: 4,
-      subMaxLevel: 3,
-
-      // 搜索配置
-      search: {
-        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-        paths: 'auto',
-        placeholder: '🔍 搜索文档...',
-        noData: '😞 找不到结果',
-        depth: 6,
-        hideOtherSidebarContent: false,
-      },
-
-      // 复制代码配置
-      copyCode: {
-        buttonText: '📋 复制',
-        errorText: '❌ 复制失败',
-        successText: '✅ 已复制'
-      },
-
-      // 分页导航
-      pagination: {
-        previousText: '⬅️ 上一页',
-        nextText: '下一页 ➡️',
-        crossChapter: true,
-        crossChapterText: true,
-      },
-
-      // 字数统计
-      count: {
-        countable: true,
-        fontsize: '0.9em',
-        color: 'rgb(90,90,90)',
-        language: 'chinese'
-      },
-
-      // 代码高亮
-      prism: {
-        theme: 'default'
-      },
-
-      // 外部链接
-      externalLinkTarget: '_blank',
-
-      // 路由模式
-      routerMode: 'hash',
-
-      // 404页面
-      notFoundPage: true,
-
-      // 侧边栏折叠
-      sidebarDisplayLevel: 1,
-
-      // 页面标题后缀
-      nameLink: '/',
-
-      // 编辑文档链接
-      plugins: [
-        function(hook, vm) {
-          hook.beforeEach(function (html) {
-            var url = 'https://github.com/lzhch/tech-notes/blob/main/' + vm.route.file;
-            var editHtml = '[:memo: 编辑此页](' + url + ')\n\n';
-            return editHtml + html;
-          });
-        }
-      ]
-    }
-  </script>
+  <!-- Docsify 配置 -->
+  <script src="./docsify-config.js"></script>
 
   <!-- Docsify 核心 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>

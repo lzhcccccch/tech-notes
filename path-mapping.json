@@ -1,0 +1,70 @@
+{
+  "pathMappings": {
+    "description": "GitHub Pages 路径映射配置，解决特殊字符和空格问题",
+    "mappings": {
+      "01_Java/01_Java 语法和工具使用": "01_Java/01_Java%20语法和工具使用",
+      "01_Java/03_多线程(异步并发)": "01_Java/03_多线程(异步并发)",
+      "01_Java/04_JVM&JDK": "01_Java/04_JVM&JDK",
+      "01_Java/1001_Java 搭建 WebService": "01_Java/1001_Java%20搭建%20WebService",
+      "02_数据库/02_Elastic Search": "02_数据库/02_Elastic%20Search",
+      "07_人工智能/02_DeepSeek RAG 增强检索知识库系统": "07_人工智能/02_DeepSeek%20RAG%20增强检索知识库系统",
+      "3001_工具和软件的安装与使用": "3001_工具和软件的安装与使用"
+    }
+  },
+  "commonIssues": {
+    "空格问题": {
+      "description": "文件夹名称中的空格在URL中需要编码为%20",
+      "solution": "使用%20替代空格",
+      "examples": [
+        "Java 语法 -> Java%20语法",
+        "搭建 WebService -> 搭建%20WebService"
+      ]
+    },
+    "特殊字符问题": {
+      "description": "括号和&符号需要URL编码",
+      "solution": "使用对应的URL编码",
+      "examples": [
+        "( -> %28",
+        ") -> %29",
+        "& -> %26"
+      ]
+    },
+    "中文字符问题": {
+      "description": "中文字符在某些情况下可能需要编码",
+      "solution": "保持原样或使用UTF-8编码",
+      "examples": [
+        "多线程 -> 多线程 (通常不需要编码)",
+        "异步并发 -> 异步并发 (通常不需要编码)"
+      ]
+    }
+  },
+  "troubleshooting": {
+    "404错误": [
+      "检查文件路径是否正确",
+      "确认文件确实存在于GitHub仓库中",
+      "检查路径中的特殊字符是否正确编码",
+      "尝试在浏览器中直接访问文件URL",
+      "检查GitHub Pages是否正确部署"
+    ],
+    "路径不匹配": [
+      "对比侧边栏链接与实际文件路径",
+      "检查_sidebar.md中的路径格式",
+      "确认docsify配置中的alias设置",
+      "查看浏览器开发者工具的网络请求"
+    ]
+  },
+  "bestPractices": {
+    "文件命名": [
+      "避免在文件夹名称中使用空格",
+      "使用下划线或连字符替代空格",
+      "避免使用特殊字符如()&等",
+      "保持路径简洁明了"
+    ],
+    "路径配置": [
+      "在_sidebar.md中使用URL编码的路径",
+      "在docsify配置中设置正确的alias",
+      "使用hash路由模式确保兼容性",
+      "测试所有链接的可访问性"
+    ]
+  }
+}
