@@ -8,11 +8,14 @@ docs/
 ├── _sidebar.md               # 全站目录
 ├── about.md                  # 关于页
 ├── assets/                   # 样式与脚本
-└── posts/
-    ├── ai/
-    ├── backend/
-    ├── engineering/
-    └── frontend/
+└── knowledge/
+    ├── programming/          # 编程基础
+    ├── application/          # 应用开发
+    ├── data/                 # 数据工程
+    ├── infrastructure/       # 基础设施
+    ├── ai/                   # AI 工程
+    ├── architecture-quality/ # 架构与质量
+    └── beyond-code/          # 栈外阅读
 ```
 
 ## 文章模板
@@ -33,11 +36,20 @@ docs/
 列出最重要的结论。
 ```
 
-建议文件名使用小写英文和连字符，例如 `spring-boot-observability.md`。文章中的链接尽量使用相对路径，图片放在 `docs/assets/images/` 下。
+建议文件名使用小写英文和连字符，例如 `spring-boot-observability.md`。每篇文章只归入一个主专题，跨主题内容通过标签和正文链接关联，避免复制文件。文章中的链接尽量使用相对路径，图片放在 `docs/assets/images/` 下。
+
+## 分类原则
+
+- **编程基础**：语言语义、集合、并发与运行时。
+- **应用开发**：Spring 应用、分布式集成、认证与流程。
+- **数据工程**：数据库原理、SQL 实战、搜索与分析系统。
+- **基础设施**：容器、中间件、操作系统与网络。
+- **AI 工程**：LLM 应用、Agent、RAG 与知识库。
+- **架构与质量**：软件设计、性能排障和开发工具链。
+- **栈外阅读**：读书笔记及非技术思考。
 
 ## 提交建议
 
 - 新文章：`docs: 新增 Spring Boot 可观测性笔记`
 - 修正文案：`docs: 修正 Vue 状态管理示例`
 - 调整站点：`feat: 优化移动端目录`
-

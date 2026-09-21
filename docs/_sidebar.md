@@ -1,16 +1,43 @@
 - **开始**
   - [首页](/)
+  - [知识地图](/knowledge/README.md)
   - [关于本站](/about.md)
 
-- **后端开发**
-  - [Spring Boot 请求处理链](/posts/backend/spring-boot-request-flow.md)
+- **编程基础**
+  - [专题说明](/knowledge/programming/README.md)
+  - [Java 核心](/knowledge/programming/java-core/README.md)
+  - [并发与运行时](/knowledge/programming/concurrency-runtime/README.md)
+  - [Web 与脚本](/knowledge/programming/web-scripting/README.md)
 
-- **前端开发**
-  - [Vue 3 状态边界](/posts/frontend/vue-state-boundaries.md)
+- **应用开发**
+  - [专题说明](/knowledge/application/README.md)
+  - [Spring 应用](/knowledge/application/spring-apps/README.md)
+  - [分布式与集成](/knowledge/application/distributed-integration/README.md)
+  - [认证与流程](/knowledge/application/auth-workflow/README.md)
 
-- **AI 实践**
-  - [Agent 工具调用循环](/posts/ai/agent-tool-loop.md)
+- **数据工程**
+  - [专题说明](/knowledge/data/README.md)
+  - [MySQL 原理](/knowledge/data/mysql-internals/README.md)
+  - [SQL 实战](/knowledge/data/sql-practice/README.md)
+  - [搜索与分析](/knowledge/data/search-analytics/README.md)
 
-- **工程方法**
-  - [如何写有用的技术笔记](/posts/engineering/useful-technical-notes.md)
+- **基础设施**
+  - [专题说明](/knowledge/infrastructure/README.md)
+  - [容器化](/knowledge/infrastructure/containers/README.md)
+  - [中间件](/knowledge/infrastructure/middleware/README.md)
+  - [系统与网络](/knowledge/infrastructure/systems-networking/README.md)
 
+- **AI 工程**
+  - [专题说明](/knowledge/ai/README.md)
+  - [LLM 与 Agent](/knowledge/ai/llm-agents/README.md)
+  - [RAG 与知识检索](/knowledge/ai/rag-knowledge/README.md)
+
+- **架构与质量**
+  - [专题说明](/knowledge/architecture-quality/README.md)
+  - [软件设计](/knowledge/architecture-quality/software-design/README.md)
+  - [性能与故障](/knowledge/architecture-quality/performance-incidents/README.md)
+  - [开发工具](/knowledge/architecture-quality/developer-tooling/README.md)
+
+- **栈外阅读**
+  - [专题说明](/knowledge/beyond-code/README.md)
+  - [阅读笔记](/knowledge/beyond-code/reading-notes/README.md)

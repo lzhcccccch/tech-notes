@@ -11,7 +11,7 @@
 - 可选的 GitHub Discussions（Giscus）评论区
 - 推送到 `main` 后由 GitHub Actions 自动发布
 
-所有博客页面都在 `docs/` 中，当前文章是示例占位内容，可以直接替换。
+所有博客页面都在 `docs/` 中，整理后的知识内容统一放在 `docs/knowledge/`。已根据原始清单生成 187 个同名占位文件，可以逐篇替换正文。
 
 ## 本地预览
 
@@ -75,7 +75,7 @@ git push origin main
 
 ## 写一篇新文章
 
-1. 在 `docs/posts/<分类>/` 下复制一篇 Markdown 文件并改名。
+1. 在 `docs/knowledge/<知识域>/<专题>/` 下复制一篇 Markdown 文件并改名。
 2. 修改标题、日期、标签与正文。
 3. 在 `docs/_sidebar.md` 中加入文章链接。
 4. 如需在首页展示，再编辑 `docs/README.md` 的文章卡片。

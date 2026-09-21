@@ -1,51 +1,67 @@
-# 把零散经验，整理成可复用的知识
+# 把技术笔记，整理成可生长的知识地图
 
-<p class="intro">这里记录后端、前端、AI 与工程实践中的关键决策、踩坑过程和可运行示例。当前内容为站点骨架与示例文章，后续可以直接替换为真实笔记。</p>
+<p class="intro">根据现有笔记的主题重新规划知识路径：从语言与应用开发出发，延伸到数据、基础设施、AI、架构质量与栈外阅读。187 个原文件名已经生成同名占位页，后续可逐步迁移真实内容。</p>
 
 <div class="topic-strip" aria-label="博客主题">
-  <span>Java / Spring</span>
-  <span>Vue / TypeScript</span>
-  <span>AI / Agents</span>
-  <span>工程效率</span>
+  <span>编程基础</span>
+  <span>应用开发</span>
+  <span>数据工程</span>
+  <span>基础设施</span>
+  <span>AI 工程</span>
+  <span>架构与质量</span>
 </div>
 
-## 最新文章
+## 推荐入口
 
 <div class="post-grid">
-  <a class="post-card" href="#/posts/backend/spring-boot-request-flow">
-    <span class="post-card__category">后端开发</span>
-    <strong>一次 Spring Boot 请求经历了什么</strong>
-    <p>沿着 Filter、DispatcherServlet、Interceptor 和 Controller，建立完整的请求处理心智模型。</p>
-    <span class="post-card__footer">2026-09-18 · 8 分钟</span>
+  <a class="post-card" href="#/knowledge/programming/">
+    <span class="post-card__category">编程基础</span>
+    <strong>语言、集合、并发与运行时</strong>
+    <p>聚合 Java 核心、JVM、线程上下文，以及 JavaScript、Python 等语言实践。</p>
+    <span class="post-card__footer">3 个专题 · 示例目录</span>
   </a>
-  <a class="post-card" href="#/posts/frontend/vue-state-boundaries">
-    <span class="post-card__category">前端开发</span>
-    <strong>Vue 3 状态应该放在哪里</strong>
-    <p>用组件状态、组合式函数和 Store 的边界，避免状态管理从第一天就失控。</p>
-    <span class="post-card__footer">2026-09-12 · 6 分钟</span>
+  <a class="post-card" href="#/knowledge/application/">
+    <span class="post-card__category">应用开发</span>
+    <strong>Spring、分布式集成与业务流程</strong>
+    <p>把框架用法、认证鉴权、流程引擎和服务调用放回完整应用链路中理解。</p>
+    <span class="post-card__footer">3 个专题 · 示例目录</span>
   </a>
-  <a class="post-card" href="#/posts/ai/agent-tool-loop">
-    <span class="post-card__category">AI 实践</span>
-    <strong>从零理解 Agent 的工具调用循环</strong>
-    <p>用一个最小示例拆解“观察—思考—行动—反馈”循环，以及真实项目中的停止条件。</p>
-    <span class="post-card__footer">2026-09-05 · 10 分钟</span>
+  <a class="post-card" href="#/knowledge/data/">
+    <span class="post-card__category">数据工程</span>
+    <strong>数据库原理与查询实践</strong>
+    <p>分开整理 MySQL 内核机制、SQL 场景优化，以及搜索和分析型数据系统。</p>
+    <span class="post-card__footer">3 个专题 · 示例目录</span>
   </a>
-  <a class="post-card" href="#/posts/engineering/useful-technical-notes">
-    <span class="post-card__category">工程方法</span>
-    <strong>如何写真正有用的技术笔记</strong>
-    <p>从问题现场出发，记录约束、选择与验证，让未来的自己能快速复用结论。</p>
-    <span class="post-card__footer">2026-08-28 · 5 分钟</span>
+  <a class="post-card" href="#/knowledge/infrastructure/">
+    <span class="post-card__category">基础设施</span>
+    <strong>从容器到系统网络</strong>
+    <p>覆盖镜像与部署、中间件运维、操作系统命令和网络请求链路。</p>
+    <span class="post-card__footer">3 个专题 · 示例目录</span>
+  </a>
+  <a class="post-card" href="#/knowledge/ai/">
+    <span class="post-card__category">AI 工程</span>
+    <strong>LLM 应用、Agent 与 RAG</strong>
+    <p>将模型交互、工具调用和知识检索拆成可验证的工程组件。</p>
+    <span class="post-card__footer">2 个专题 · 示例目录</span>
+  </a>
+  <a class="post-card" href="#/knowledge/architecture-quality/">
+    <span class="post-card__category">架构与质量</span>
+    <strong>设计、性能与工程工具链</strong>
+    <p>沉淀架构建模、性能事故复盘，以及可重复的开发环境和协作流程。</p>
+    <span class="post-card__footer">3 个专题 · 示例目录</span>
   </a>
 </div>
 
-## 内容路线
+## 知识地图
 
-| 专题 | 主要内容 | 当前状态 |
+| 知识域 | 归纳后的内容 | 示例专题 |
 | --- | --- | --- |
-| 后端开发 | Spring Boot、认证鉴权、数据库与可观测性 | 持续更新 |
-| 前端开发 | Vue 3、TypeScript、状态与 API 设计 | 持续更新 |
-| AI 实践 | Agent、RAG、提示工程与评估 | 建设中 |
-| 工程方法 | 调试、文档、自动化与团队协作 | 持续更新 |
+| 编程基础 | Java 语法与集合、并发、JVM、前端与脚本语言 | Java 核心、并发与运行时、Web 与脚本 |
+| 应用开发 | Spring Boot、Spring Cloud、认证、流程引擎与系统集成 | Spring 应用、分布式集成、认证与流程 |
+| 数据工程 | MySQL 锁/MVCC/索引、SQL 优化、Elasticsearch 与 ClickHouse | MySQL 原理、SQL 实战、搜索与分析 |
+| 基础设施 | Docker、Redis、RocketMQ、RabbitMQ、Linux 与网络 | 容器化、中间件、系统与网络 |
+| AI 工程 | Prompt、Agent、Codex、RAG 知识库 | LLM 与 Agent、RAG 与知识检索 |
+| 架构与质量 | DDD、设计模式、系统性能、故障复盘和工具链 | 软件设计、性能与故障、开发工具 |
+| 栈外阅读 | 读书笔记与非技术思考 | 阅读笔记 |
 
-> 这是一套假目录和示例文章。确认栏目后，只需替换 Markdown 文件，不需要改造站点程序。
-
+> 新目录不是对原目录的平移，而是按“知识层次与使用场景”重新归类。占位文件保留原文件名和原始位置提示，但不包含原笔记正文。
