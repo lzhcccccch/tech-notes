@@ -1,0 +1,26 @@
+name: 文章选题建议
+description: 建议一个值得整理的技术主题
+title: "[选题] "
+labels:
+  - documentation
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 想解决的问题
+      description: 请描述读者会在什么场景下遇到这个问题。
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 希望覆盖的内容
+      description: 可以列出版本、框架、示例或容易踩坑的地方。
+    validations:
+      required: true
+  - type: input
+    id: references
+    attributes:
+      label: 参考资料
+      description: 可选，请提供官方文档或可复现仓库链接。
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tech Notes：记录后端、前端、AI 与工程实践的个人技术博客。"
+    />
+    <meta name="theme-color" content="#0f766e" />
+    <title>Tech Notes</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f766e'/%3E%3Cpath d='M16 18h32v7H36v23h-8V25H16z' fill='white'/%3E%3C/svg%3E"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="主导航">
+      <a class="site-brand" href="#/" aria-label="Tech Notes 首页">
+        <span class="site-brand__mark" aria-hidden="true">T</span>
+        <span>Tech Notes</span>
+      </a>
+      <nav class="site-nav" aria-label="站点链接">
+        <a href="#/">首页</a>
+        <a href="#/about">关于</a>
+        <a
+          href="https://github.com/lzhcccccch/tech-notes"
+          target="_blank"
+          rel="noopener noreferrer"
+        >GitHub</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="切换深色模式">
+          <span aria-hidden="true">◐</span>
+          <span class="theme-toggle__text">深色</span>
+        </button>
+      </nav>
+    </header>
+
+    <div id="app" class="app-loading">正在整理笔记…</div>
+
+    <script>
+      window.BLOG_CONFIG = {
+        repository: 'lzhcccccch/tech-notes',
+        branch: 'main',
+        comments: {
+          repoId: '',
+          category: 'Announcements',
+          categoryId: ''
+        }
+      };
+
+      window.$docsify = {
+        name: 'Tech Notes',
+        nameLink: '#/',
+        repo: 'https://github.com/lzhcccccch/tech-notes',
+        homepage: 'README.md',
+        loadSidebar: true,
+        auto2top: true,
+        subMaxLevel: 3,
+        maxLevel: 4,
+        relativePath: true,
+        notFoundPage: '404.md',
+        search: {
+          maxAge: 86400000,
+          paths: 'auto',
+          placeholder: '搜索文章、标题或关键词',
+          noData: '没有找到相关内容',
+          depth: 4,
+          hideOtherSidebarContent: false
+        },
+        pagination: {
+          previousText: '上一篇',
+          nextText: '下一篇',
+          crossChapter: true,
+          crossChapterText: true
+        },
+        copyCode: {
+          buttonText: '复制',
+          errorText: '复制失败',
+          successText: '已复制'
+        }
+      };
+    </script>
+    <script src="assets/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+  </body>
+</html>
