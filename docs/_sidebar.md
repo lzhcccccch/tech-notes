@@ -1,5 +1,4 @@
 - **开始**
-  - [首页](/)
   - [知识地图](/knowledge/README.md)
   - [关于本站](/about.md)
 

@@ -62,7 +62,9 @@
         homepage: 'README.md',
         loadSidebar: true,
         auto2top: true,
-        subMaxLevel: 3,
+        // 全局侧栏只用于知识分类导航，文章内标题不再注入侧栏。
+        // 否则长文章会产生大量二、三级目录，挤掉真正的站点导航。
+        subMaxLevel: 0,
         maxLevel: 4,
         relativePath: true,
         notFoundPage: '404.md',

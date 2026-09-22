@@ -1,10 +1,10 @@
 # Spring 应用
 
-<p class="article-meta">应用开发 / Spring 应用 · 23 个原文件名占位</p>
+<p class="article-meta">应用开发 / Spring 应用 · 23 篇文章</p>
 
 Spring Boot、Web 扩展点、事务与应用组件。
 
-> 下列文件仅依据原始文件名生成占位，正文尚未迁移。
+> 从这里进入各篇 Spring 应用开发笔记。
 
 ## 文件清单
 
@@ -31,4 +31,3 @@ Spring Boot、Web 扩展点、事务与应用组件。
 - [Spring MVC 中的 HandlerMethod 技术解析](./Spring%20MVC%20%E4%B8%AD%E7%9A%84%20HandlerMethod%20%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90.md)
 - [Springboot参数分组校验](./Springboot%E5%8F%82%E6%95%B0%E5%88%86%E7%BB%84%E6%A0%A1%E9%AA%8C.md)
 - [Springboot多数据源及事务实现方案](./Springboot%E5%A4%9A%E6%95%B0%E6%8D%AE%E6%BA%90%E5%8F%8A%E4%BA%8B%E5%8A%A1%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%A1%88.md)
-

@@ -484,6 +484,7 @@ body.close .sidebar-toggle {
   }
 
   .sidebar-toggle {
+    position: fixed;
     top: 10px;
     bottom: auto;
     left: 10px;
@@ -491,9 +492,9 @@ body.close .sidebar-toggle {
     width: 38px;
     height: 38px;
     padding: 10px 8px;
-    background: transparent;
-    border-color: transparent;
-    box-shadow: none;
+    background: var(--page);
+    border-color: var(--border);
+    box-shadow: 0 6px 18px rgba(10, 27, 34, 0.14);
   }
 
   .content {
