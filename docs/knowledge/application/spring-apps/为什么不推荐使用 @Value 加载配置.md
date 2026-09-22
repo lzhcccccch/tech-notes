@@ -1,6 +1,5 @@
 # 为什么不推荐在Spring Boot中使用@Value加载配置
 
-[toc]
 
 ## 简介
 

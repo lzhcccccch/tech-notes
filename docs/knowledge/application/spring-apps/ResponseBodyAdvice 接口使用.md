@@ -1,6 +1,5 @@
 # ResponseBodyAdvice 详解
 
-[toc]
 
 ## 简介
 

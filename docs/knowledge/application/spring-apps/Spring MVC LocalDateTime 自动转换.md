@@ -1,6 +1,5 @@
-# Spring 中 LocalDateTime 自动转换
+# Spring MVC LocalDateTime 自动转换
 
-[toc]
 
 ## 问题背景
 

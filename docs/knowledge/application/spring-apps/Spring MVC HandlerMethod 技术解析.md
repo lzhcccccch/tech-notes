@@ -1,6 +1,5 @@
-# Spring MVC 中的 HandlerMethod 技术解析
+# Spring MVC HandlerMethod 技术解析
 
-[toc]
 
 ## 前言
 

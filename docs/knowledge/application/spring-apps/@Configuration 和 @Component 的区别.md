@@ -1,6 +1,5 @@
 # @Configuration 和 @Component 的区别
 
-[toc]
 
 ## 简介
 

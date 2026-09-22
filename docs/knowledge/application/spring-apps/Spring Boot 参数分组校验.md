@@ -1,6 +1,5 @@
-# Springboot参数分组校验
+# Spring Boot 参数分组校验
 
-[toc]
 
 ## 简介
 

@@ -1,6 +1,5 @@
 # Spring Boot 常用注解
 
-[toc]
 
 ## 简介
 

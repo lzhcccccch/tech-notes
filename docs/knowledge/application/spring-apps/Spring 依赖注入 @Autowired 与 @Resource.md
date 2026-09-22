@@ -1,6 +1,5 @@
 # 依赖注入注解@Autowired、@Resource
 
-[toc]
 
 ## 简介
 随着Spring框架的不断发展，依赖注入(DI)作为其核心特性之一，提供了多种实现方式。本报告主要探讨@Resource和@Autowired这两个常用注解的区别、使用场景，以及Spring官方推荐的依赖注入最佳实践。

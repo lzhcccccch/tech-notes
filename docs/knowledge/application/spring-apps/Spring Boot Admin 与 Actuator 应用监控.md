@@ -1,6 +1,5 @@
-# 							SpringBoot-Actuator
+# Spring Boot Admin 与 Actuator 应用监控
 
-[toc]
 
 ##  一、 Spring Boot Admin 简介
 

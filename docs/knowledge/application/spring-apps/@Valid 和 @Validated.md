@@ -1,6 +1,5 @@
 # @Valid 和 @Validated
 
-[toc]
 
 ## 简介
 

@@ -1,6 +1,5 @@
 # Spring Boot 注解基础概念
 
-[toc]
 
 ## 简介
 

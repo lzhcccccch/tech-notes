@@ -1,6 +1,4 @@
-- **开始**
-  - [知识地图](/knowledge/README.md)
-  - [关于本站](/about.md)
+- [首页](/)
 
 - **编程基础**
   - [专题说明](/knowledge/programming/README.md)
